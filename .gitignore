@@ -175,10 +175,3 @@ cython_debug/
 
 # Project specific ignores
 aist_raw/
-lightning_logs/*/checkpoints/
-*.ckpt
-*.mid
-*.gif
-*.png
-*.wav
-*.mp4
