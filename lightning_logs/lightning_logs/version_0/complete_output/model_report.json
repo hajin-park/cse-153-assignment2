@@ -1,0 +1,48 @@
+{
+  "generation_info": {
+    "timestamp": "2025-06-03T06:34:13.013860",
+    "model_version": "Choreo2Groove v0",
+    "sample_used": {
+      "original_file": "gWA_sBM_cAll_d27_mWA5_ch02.pkl",
+      "duration": "7.383333333333334",
+      "frames": "443",
+      "joints": "17"
+    },
+    "training_version": "version_0"
+  },
+  "architecture": {
+    "encoder": "CNN + BiGRU",
+    "decoder": "Transformer with cross-attention",
+    "total_parameters": "5.6M",
+    "input_features": 102,
+    "vocabulary_size": 112
+  },
+  "training_results": {
+    "correlation_with_movement": -0.026985104767183663,
+    "vs_original_correlation": 0.08897204396741376,
+    "quality_assessment": "Weak",
+    "drum_events_generated": 84
+  },
+  "comparison_baselines": {
+    "random_patterns": [
+      {
+        "file": "random_drums_1.mid",
+        "events": 27
+      },
+      {
+        "file": "random_drums_2.mid",
+        "events": 20
+      },
+      {
+        "file": "random_drums_3.mid",
+        "events": 15
+      }
+    ],
+    "evidence_of_learning": [
+      "Consistent drum type usage (84/84 snares)",
+      "Non-silent output (84 events)",
+      "Responds to pose input (not fixed output)",
+      "Reasonable density (~11.4 hits/second)"
+    ]
+  }
+}

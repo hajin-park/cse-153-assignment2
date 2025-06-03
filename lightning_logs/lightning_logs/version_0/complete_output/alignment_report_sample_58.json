@@ -5,15 +5,15 @@
     "duration_seconds": 7.383333333333334
   },
   "generated_analysis": {
-    "drum_events": 133,
-    "movement_correlation": -0.0018224580427293744,
+    "drum_events": 84,
+    "movement_correlation": -0.026985104767183663,
     "kick_events": 0,
-    "snare_events": 132,
-    "total_accents": 132
+    "snare_events": 84,
+    "total_accents": 84
   },
   "original_analysis": {
     "drum_events": 40,
-    "movement_correlation": 0.08897204396741383,
+    "movement_correlation": 0.08897204396741376,
     "kick_events": 0,
     "snare_events": 40,
     "total_accents": 40
@@ -21,6 +21,6 @@
   "alignment_quality": {
     "generated_vs_movement": "Weak",
     "compared_to_original": "Worse",
-    "correlation_difference": -0.0907945020101432
+    "correlation_difference": -0.11595714873459742
   }
 }
