@@ -1,0 +1,4 @@
+original_file: gPO_sBM_cAll_d12_mPO4_ch04.pkl
+duration: 8.0
+frames: 480
+joints: 17

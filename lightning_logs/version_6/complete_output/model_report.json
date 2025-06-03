@@ -1,0 +1,32 @@
+{
+  "generation_info": {
+    "timestamp": "2025-06-03T00:23:41.221587",
+    "model_version": "Choreo2Groove v1.0",
+    "sample_used": {
+      "original_file": "gWA_sBM_cAll_d27_mWA5_ch02.pkl",
+      "duration": "7.383333333333334",
+      "frames": "443",
+      "joints": "17"
+    },
+    "model_size_mb": 64,
+    "training_epochs": 3,
+    "final_loss": 0.782
+  },
+  "architecture": {
+    "encoder": "CNN + BiGRU",
+    "decoder": "Transformer with cross-attention",
+    "total_parameters": "5.6M",
+    "input_features": 102,
+    "vocabulary_size": 111
+  },
+  "dataset": {
+    "source": "AIST++ Professional Dance Dataset",
+    "training_samples": 76,
+    "dance_styles": [
+      "Basic Moves",
+      "Freestyle",
+      "Korean Pop"
+    ],
+    "total_duration_minutes": "~45 minutes of dance"
+  }
+}

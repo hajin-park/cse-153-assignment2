@@ -1,0 +1,4 @@
+original_file: gMH_sBM_cAll_d23_mMH5_ch06.pkl
+duration: 7.383333333333334
+frames: 443
+joints: 17

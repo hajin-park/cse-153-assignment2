@@ -1,0 +1,4 @@
+original_file: gWA_sBM_cAll_d25_mWA3_ch02.pkl
+duration: 8.733333333333333
+frames: 524
+joints: 17

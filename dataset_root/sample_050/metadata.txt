@@ -1,0 +1,4 @@
+original_file: gJB_sBM_cAll_d07_mJB0_ch01.pkl
+duration: 12.0
+frames: 720
+joints: 17

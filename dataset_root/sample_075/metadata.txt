@@ -1,0 +1,4 @@
+original_file: gPO_sBM_cAll_d10_mPO2_ch03.pkl
+duration: 9.6
+frames: 576
+joints: 17

@@ -1,0 +1,8 @@
+{
+  "status": "SUCCESS",
+  "sample_used": 58,
+  "original_file": "gWA_sBM_cAll_d27_mWA5_ch02.pkl",
+  "frames_processed": 443,
+  "output_file": "lightning_logs\\version_6\\complete_output\\dance_video_FIXED.gif",
+  "notes": "Fixed visualization with proper coordinate normalization"
+}

@@ -1,0 +1,4 @@
+original_file: gBR_sBM_cAll_d04_mBR1_ch03.pkl
+duration: 10.666666666666666
+frames: 640
+joints: 17

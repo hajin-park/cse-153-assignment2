@@ -1,0 +1,4 @@
+original_file: gLH_sBM_cAll_d18_mLH3_ch10.pkl
+duration: 8.733333333333333
+frames: 524
+joints: 17

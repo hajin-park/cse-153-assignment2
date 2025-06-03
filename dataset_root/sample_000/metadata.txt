@@ -1,0 +1,4 @@
+original_file: gJB_sBM_cAll_d09_mJB5_ch05.pkl
+duration: 7.383333333333334
+frames: 443
+joints: 17

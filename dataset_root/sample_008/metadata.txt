@@ -1,0 +1,4 @@
+original_file: gMH_sBM_cAll_d22_mMH2_ch10.pkl
+duration: 9.6
+frames: 576
+joints: 17

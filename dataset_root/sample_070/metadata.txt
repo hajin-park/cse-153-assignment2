@@ -1,0 +1,4 @@
+original_file: gWA_sBM_cAll_d25_mWA1_ch08.pkl
+duration: 10.666666666666666
+frames: 640
+joints: 17

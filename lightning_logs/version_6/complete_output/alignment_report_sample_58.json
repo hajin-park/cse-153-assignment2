@@ -1,0 +1,26 @@
+{
+  "sample_info": {
+    "sample_id": 58,
+    "pose_frames": 443,
+    "duration_seconds": 7.383333333333334
+  },
+  "generated_analysis": {
+    "drum_events": 133,
+    "movement_correlation": -0.0018224580427293744,
+    "kick_events": 0,
+    "snare_events": 132,
+    "total_accents": 132
+  },
+  "original_analysis": {
+    "drum_events": 40,
+    "movement_correlation": 0.08897204396741383,
+    "kick_events": 0,
+    "snare_events": 40,
+    "total_accents": 40
+  },
+  "alignment_quality": {
+    "generated_vs_movement": "Weak",
+    "compared_to_original": "Worse",
+    "correlation_difference": -0.0907945020101432
+  }
+}

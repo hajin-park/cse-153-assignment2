@@ -1,0 +1,4 @@
+original_file: gHO_sBM_cAll_d20_mHO5_ch09.pkl
+duration: 7.1
+frames: 426
+joints: 17

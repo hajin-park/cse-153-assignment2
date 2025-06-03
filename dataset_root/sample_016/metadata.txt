@@ -1,0 +1,4 @@
+original_file: gMH_sBM_cAll_d23_mMH4_ch10.pkl
+duration: 8.0
+frames: 480
+joints: 17

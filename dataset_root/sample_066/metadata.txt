@@ -1,0 +1,4 @@
+original_file: gLH_sBM_cAll_d16_mLH2_ch06.pkl
+duration: 9.6
+frames: 576
+joints: 17

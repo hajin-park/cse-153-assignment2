@@ -1,5 +1,5 @@
 # Choreo2Groove – end‑to‑end pose→drum symbolic generator with CUDA acceleration
-"""
+r"""
 Usage (after data prep):
     python choreo2groove.py \ 
         --data_root /path/to/dataset \   # folder with pairs pose.npy & drums.mid
@@ -8,7 +8,7 @@ Usage (after data prep):
 Dataset directory tree (after running scripts/download_aistpp.sh):
     dataset_root/
         sample_000/
-            pose.npy          # (T, J, 3) float32, 60 fps
+            pose.npy          # (T, J, 3) float32, 60 fps
             drums.mid         # symbolic drum track aligned to same T
         sample_001/...
         ...
@@ -50,13 +50,13 @@ DRUM_TOKENS = {
     "tom_high": 7,
     "crash": 8,
     "ride": 9,
-    # time‑shift tokens (20 ms increments up to 2 s)
+    # time‑shift tokens (20 ms increments up to 2 s)
 }
 SHIFT_OFFSET = len(DRUM_TOKENS)
-MAX_SHIFT = 100  # 100 * 20 ms = 2 s
+MAX_SHIFT = 100  # 100 * 20 ms = 2 s
 for i in range(1, MAX_SHIFT + 1):
     DRUM_TOKENS[f"shift_{i}"] = SHIFT_OFFSET + i
-VOCAB_SIZE = len(DRUM_TOKENS)
+VOCAB_SIZE = len(DRUM_TOKENS) + 1  # Add 1 to handle edge case tokens
 IDX2TOKEN = {v: k for k, v in DRUM_TOKENS.items()}
 
 # -------------------------------------------
@@ -251,7 +251,7 @@ def main():
         batch_size=args.batch_size,
         shuffle=True,
         collate_fn=collate_fn,
-        num_workers=4,
+        num_workers=0,  # Fix for Windows - disable multiprocessing
     )
 
     sample_pose, _ = ds[0]

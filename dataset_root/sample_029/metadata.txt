@@ -1,0 +1,4 @@
+original_file: gJB_sBM_cAll_d09_mJB4_ch01.pkl
+duration: 8.0
+frames: 480
+joints: 17

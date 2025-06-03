@@ -1,0 +1,4 @@
+original_file: gLO_sBM_cAll_d14_mLO0_ch10.pkl
+duration: 12.0
+frames: 720
+joints: 17

@@ -1,0 +1,4 @@
+original_file: gHO_sBM_cAll_d19_mHO0_ch09.pkl
+duration: 8.733333333333333
+frames: 524
+joints: 17

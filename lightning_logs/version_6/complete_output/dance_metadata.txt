@@ -1,0 +1,4 @@
+original_file: gWA_sBM_cAll_d27_mWA5_ch02.pkl
+duration: 7.383333333333334
+frames: 443
+joints: 17

@@ -1,0 +1,4 @@
+original_file: gPO_sBM_cAll_d10_mPO1_ch10.pkl
+duration: 10.666666666666666
+frames: 640
+joints: 17

@@ -1,0 +1,4 @@
+original_file: gLO_sBM_cAll_d13_mLO2_ch02.pkl
+duration: 9.6
+frames: 576
+joints: 17

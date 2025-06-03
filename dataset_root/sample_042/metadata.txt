@@ -1,0 +1,4 @@
+original_file: gJS_sBM_cAll_d01_mJS0_ch05.pkl
+duration: 12.0
+frames: 720
+joints: 17

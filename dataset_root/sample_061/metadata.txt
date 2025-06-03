@@ -1,0 +1,4 @@
+original_file: gJB_sBM_cAll_d09_mJB2_ch08.pkl
+duration: 9.6
+frames: 576
+joints: 17

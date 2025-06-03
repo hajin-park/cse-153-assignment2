@@ -1,0 +1,4 @@
+original_file: gMH_sBM_cAll_d22_mMH3_ch08.pkl
+duration: 8.733333333333333
+frames: 524
+joints: 17

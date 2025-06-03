@@ -1,0 +1,4 @@
+original_file: gKR_sBM_cAll_d28_mKR2_ch04.pkl
+duration: 9.6
+frames: 576
+joints: 17

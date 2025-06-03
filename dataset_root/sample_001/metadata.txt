@@ -1,0 +1,4 @@
+original_file: gLO_sBM_cAll_d14_mLO5_ch04.pkl
+duration: 7.383333333333334
+frames: 443
+joints: 17
